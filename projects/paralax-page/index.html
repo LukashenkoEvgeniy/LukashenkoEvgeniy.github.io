@@ -1,10 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+	<meta charset="utf-8">
+	<title>Paralax Demo | Lukashenko</title>
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	
+	<link rel="icon" href="http://designerdada.com/prod/wp-content/uploads/2015/06/favicon.png" type="image/x-icon"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+
+	<!--&lt;!&ndash; Google Analytics &ndash;&gt;-->
+	<script>
+
+	</script>
+
 </head>
 <body>
-<h1>BINGO</h1>
+
+	<div id="container" class="container">
+		<ul id="scene" class="scene">
+			<!--<li class="layer" data-depth="0.05"><img src="images/image.jpg"></li>-->
+			<li class="layer" data-depth="0.05"><img src="images/terrain_phs.png"></li>
+			<li class="layer" data-depth="0.08"><img src="images/sun.png"></li>
+			<li class="layer" data-depth="0.20"><img src="images/shadow.png"></li>
+			<li class="layer" data-depth="0.15"><img src="images/bug.png"></li>
+			<li class="layer" data-depth="0.30"><img src="images/name.png"></li>
+			<li class="layer" data-depth="0.25"><img src="images/sirname.png"></li>
+			<li class="layer" data-depth="0.45"><a href="https://github.com/LukashenkoEvgeniy"><img src="images/github.png"></a></li>
+			<!--<li class="layer" data-depth="0.40"><img src="images/text-01.png"></li>-->
+			<!--<li class="layer" data-depth="0.10"><img src="images/monster-eyes-01.png"></li>-->
+		</ul>
+	</div>
+
+
+	<!-- Scripts -->
+	<script src="js/parallax.js"></script>
+	<script>
+	// Pretty simple huh?
+	var scene = document.getElementById('scene');
+	var parallax = new Parallax(scene);
+	</script>
+
 </body>
 </html>
