@@ -58,6 +58,10 @@ a:hover{
     width: 450px;
 }
 
+.project-description{
+    text-align: center;
+}
+
 .list-icons .list-inline-item i:hover {
     color: #bd5d38
 }
