@@ -46,8 +46,16 @@ h2 {
     font-size: 1.75rem
 }
 
+a:hover{
+    text-decoration: none;
+}
+
 .list-icons {
     font-size: 3rem
+}
+
+.project-image {
+    width: 450px;
 }
 
 .list-icons .list-inline-item i:hover {
